@@ -10,6 +10,9 @@ The **Website COVID-19 Variants:Structure and Effects on Human Health** aims to 
 1. CHARMM-GUI - Alexa is responsible for filling in these methods
 2. iCN3D - Wenyu is responsible for filling in these methods
 3. Website generation - Diya is responsible for filling in these methods. Should we deposit this code in repository?
+
+##Forthcoming Features
+
 ## References
 [1] 	
 [2] 	
