@@ -10,6 +10,9 @@ The **Website COVID-19 Variants:Structure and Effects on Human Health** aims to 
 1. CHARMM-GUI - Alexa is responsible for filling in these methods
 2. iCN3D - 3D visualization tool to find interactions between protein structures. (Wenyu is responsible for filling in these methods)
 3. Website generation - Diya is responsible for filling in these methods. Should we deposit this code in repository?
+
+## Forthcoming Features
+
 ## References
 [1] 	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7337391/#S3
 [2] 	
@@ -17,3 +20,4 @@ The **Website COVID-19 Variants:Structure and Effects on Human Health** aims to 
 [4] 	
 [5] 	
 [6]
+[7]
