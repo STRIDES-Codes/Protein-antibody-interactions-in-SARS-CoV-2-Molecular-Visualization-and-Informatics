@@ -7,7 +7,7 @@ The Covid-19 pandemic is a global health problem that has affected every facet o
 The **Website COVID-19 Variants:Structure and Effects on Human Health** aims to present information in a tangible way with structural visualizations. This allows users to engage with the material and help them understand how structure relates to function. 
 
 ## Methods
-# Generating Structure files:
+Generating Structure files:
 
 CHARMM-GUI was used to create structure files herein. The starting coordinates were taken from PDB Code 6vxx. PDB Manipulator was used to model missing residues in the system (residues -18-26 and 1148-1262) and to mimic point mutations in our delta (d6vxx.pdb) and gamma (g6vxx.pdb) structures. The mutations made were: 
 
@@ -16,11 +16,11 @@ Gamma- L18F, T20N, P26S, D138Y, R190S, K417T, E484K, N501Y, D614G, H655Y, T1027I
 
 We acknowledge that the multiple substitutions made and modeling missing residues could generate implausible conformations in the spike protein. To mitigate these issues, energy minimization was carried out in CHARMM. We performed 500 steps of steepest descent minimization and 500 steps of adopted-basis Newton-Raphson minimization.
 
-# Mapping AA interactions
+Mapping AA interactions
 
 iCN3D - 3D visualization tool to find interactions between protein structures. (Wenyu is responsible for filling in these methods)
 
-# Website Construction
+Website Construction
 
 
 Diya is responsible for filling in these methods. Should we deposit this code in repository?
