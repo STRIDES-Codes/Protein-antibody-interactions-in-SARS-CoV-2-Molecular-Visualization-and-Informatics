@@ -18,7 +18,11 @@ We acknowledge that the multiple substitutions made and modeling missing residue
 
 Mapping AA interactions
 
-iCN3D - 3D visualization tool to find interactions between protein structures. (Wenyu is responsible for filling in these methods)
+iCN3D - 3D visualization tool to find interactions between protein structures.
+
+[iCn3D](https://www.ncbi.nlm.nih.gov/Structure/icn3d/full.html) (pronounced as "I see in 3D") is a web-based 3D visualization tool for protein structures. Users are able to load images using popular IDs, such as PDB ID and MMDB ID, or load images from local files. For this project, we start with PDB code 6VXX, apply mutation points L452R, (K417N*), and D614G for Delta variant, and K417T, N501Y, and D614G for Gamma variant. L452R is selected because it is one of the top 3 highest mutation concerns for Delta variant, similar reason for selecting K417T and N501Y for Gamma variants. D614G is selected because it appears in both variants. 
+
+After making the mutations, a comparison between the original and mutated protein structure and 2D interaction networks are created for each mutation points. The results are shown in the Delta and Gamma variant pages, respectively. 
 
 Website Construction
 
