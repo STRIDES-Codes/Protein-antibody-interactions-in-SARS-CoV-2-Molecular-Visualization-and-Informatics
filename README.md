@@ -24,11 +24,3 @@ To package the information in an accessible and interactive manner, we created a
 
 ## Possible Improvements
 [1] Finding a less performance exhausting way to display the 3D model
-## References
-[1] 	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7337391/#S3
-[2] 	
-[3] 	
-[4] 	
-[5] 	
-[6]
-[7]
