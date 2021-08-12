@@ -27,7 +27,7 @@ To package the information in an accessible and interactive manner, we created a
 
 
 ## Forthcoming Features
-
+[1] Finding a less performance exhausting way to display the 3D model
 ## References
 [1] 	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7337391/#S3
 [2] 	
