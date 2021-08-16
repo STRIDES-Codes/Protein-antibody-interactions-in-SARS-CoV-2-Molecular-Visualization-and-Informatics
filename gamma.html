@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>COVID-19</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="css/gammastyle.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+</head>
+
+<body>
+    <div id="container">
+
+        <!-- Menu -->
+        <div id="navbar">
+            <ul>
+                <li class="active">
+                    <a href="/index.html">Home</a>
+                </li>
+                <li><a  href="/delta.html">Delta Variant</a></li>
+                <li><a  href="/gamma.html">Gamma Variant</a></li>
+            </ul>
+        </div>
+
+        <!--3d object-->
+        <div id="variant">
+            <img src="spike.png" alt="Covid-19 Original Variant">
+            <p id="fig"><b>What am I looking at?</b> Covid-19 is caused by a virus called SARS-CoV-2. This virus uses a spike protein to enter host cells and infect the body. The spike protein is shown here to the right.</p>
+        </div>
+
+        <!--text description-->
+        <div id="content">
+            <h2>Gamma</h2>
+            <br>
+            <p> <b>How is the Gamma variant different?</b> How is the Gamma variant different? The Gamma variant, also known as lineage P.1, is also of concern to public health because it is known to spread faster than earlier forms of the virus. <a href="https://www.cdc.gov/coronavirus/2019-ncov/variants/variant-info.html#unweighted-proportions-substitutions-of-therepeutic-concern">The Gamma variant is structurally different</a> from its wild type counterpart and, therefore, may differ in function. It has the following mutations located on the spike protein: L18F, T20N, P26S, D138Y, R190S, K417T, E484K, N501Y, D614G, H655Y, T1027I. </p>
+            <a href="#block1text"><button>Learn More</button></a>
+        </div>
+
+         <div id="block1">
+           <img src="assets/fig2gamma.png">
+        </div>
+
+        <div id="block1text">
+            <p> <b>K417T-</b> After mutation, the network plots clearly show that T417 loses contact with N370.
+<br><br>
+<b>N501Y-</b> The interaction network plots are the same before and after the mutation, although the protein structures indicate some missing π-stackings after mutation.
+<br><br>
+<b>D614G-</b> Similar to N501Y, D614G does not affect local interactions before and after the mutationr.
+
+<br><br>
+N501Y and D614G have the same network plots before and after the mutation, although there are some small changes, such as missing some π-stacking. The same interactions in plots indicate the mutation does not affect the local interactions, but it could still affect binding recognition and have an effect on the ACE2 receptor. Scroll down to learn more!
+
+</p>
+        </div>
+
+
+        <div id="block2text">
+            <p>
+
+              <b>Mutations can affect ACE2-COVID complex formation</b><br><br>
+
+Protein loops are regions of proteins that do not have regular structure. As a result, loops are much more flexible, and they are important for many things, including receptor and antibody binding. The spike protein binds to ACE2 by creating interactions, notably hydrogen bonds, between residues on ACE2 and on the spike protein. Loss of these interactions leads to poorer binding, whereas gain of interactions leads to stronger binding. Many antibodies target specific residues, and mutations at these residues can decrease effectiveness of those antibodies. 
+
+<br><br>
+In the gamma variant, two mutations (K417T and N501Y) could affect formation of the SARS-CoV-2 and ACE2 complex. The K417T mutation loses a hydrogen bond and the N501Y gains a hydrogen bond between ACE2 and the spike protein. It is difficult to say whether the combination of these mutations leads to increased or decreased binding affinity for ACE2.  Further research should focus on these mutations and their effects on interactions, as the K417T mutant has been <a href="https://www.nature.com/articles/s41577-021-00542-x">reported to reduce the effectiveness of some antibody concoctions.</a> Additionally, the novel interaction produced by N501Y may lead to <a href="https://www.sciencedirect.com/science/article/pii/S2590098621000075">greater binding affinity to ACE2</a>, which may increase <a href="https://www.nature.com/articles/s41467-021-21118-2">entry efficiency of SARS-CoV-2 </a>into cells and increase the risk of infection upon exposure.
+
+</p>
+        </div>
+        <div id="block2">
+            <img src="assets/fig3gamma.png">
+        </div>
+    
+      <div id="block3text">
+        <p>
+          <b> For more info, check any of the following resources: </b> <br> <br>
+
+             <a href = "https://www.cdc.gov/coronavirus/2019-ncov/index.html"> Centers for Disease Control and Prevention </a> <br> <a href = "https://covid19.who.int/"> World Health Organization</a> <br> <a href = "https://covid19.nih.gov/"> National Institutes of Health</a>
+      <br><br>
+          This Website and Content was created by a team at the SIP Codeathon. The members are Diya Dinesh, Alexa Salsbury, Katilin Abrantes, Anne-Sophie Fratzscher, and Wenyu Zeng.
+
+        <br><BR><BR>
+          </p>
+
+      </div>
+    </div>
+</body>
+
+</html>

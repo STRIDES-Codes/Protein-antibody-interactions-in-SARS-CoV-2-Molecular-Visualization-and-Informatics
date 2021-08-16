@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>COVID-19</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="css/deltastyle.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+</head>
+
+<body>
+    <div id="container">
+
+        <!-- Menu -->
+        <div id="navbar">
+            <ul>
+                <li class="active">
+                    <a href="/index.html">Home</a>
+                </li>
+                <li><a  href="/delta.html">Delta Variant</a></li>
+                <li><a  href="/gamma.html">Gamma Variant</a></li>
+            </ul>
+        </div>
+
+        <!--3d object-->
+        <div id="variant">
+            <img src="spike.png">
+            <p id="fig"><b>What am I looking at?</b> Covid-19 is caused by a virus called SARS-CoV-2. This virus uses a spike protein to enter host cells and infect the body. The spike protein is shown here to the right.</p>
+        </div>
+
+        <!--text description-->
+        <div id="content">
+            <h2>Delta</h2>
+            <br>
+            <p> <b>How is the Delta variant different?</b> The Delta variant, also known as lineage B.1.617.2, is of concern to public health and has been shown to cause more infections, spread faster, and cause more severe illnesses than earlier forms of the virus. <a href="https://www.cdc.gov/coronavirus/2019-ncov/variants/variant-info.html#unweighted-proportions-substitutions-of-therepeutic-concern">The delta variant is structurally different</a> from its wild type counterpart and, therefore, may differ in function. It has the following mutations located on the spike protein: T19R, (V70F*), T95I, G142D, R158G, (A222V*), (W258L*), (K417N*), L452R, T478K, D614G, P681R, D950N.  </p>
+            <a href="#block1text"><button>Learn More</button></a>
+        </div>
+
+         <div id="block1">
+           <img src="assets/fig2delta.png">
+        </div>
+
+        <div id="block1text">
+            <p> <b>L452R-</b> The protein structures show changes in contacts and π-Stacking. The interaction plot highlights that R452 has an additional contact with S494 after mutation.
+<br><br>
+<b>K417N-</b> The interaction network plots show that after changing the amino acid from lysine (K) to asparagine (N) at position 417, there is one more hydrogen bond between N417 and N370.
+<br><br>
+<b>D614G-</b> Although there are changes in the number of halogen bonds and π-Cation, the network plots indicate that D614G does not affect local interactions before and after the mutation. However, it could still affect binding recognition, such as to the ACE2 receptor.
+</p>
+        </div>
+
+
+        <div id="block2text">
+            <p>
+
+              <b>Mutations can affect ACE2-COVID complex formation</b><br><br>
+
+Protein loops are regions of proteins that do not have a regular structure. As a result, loops are much more flexible and their structure contributes to the functionality behind receptor and antibody binding. The spike protein binds to ACE2 by creating interactions, notably hydrogen bonds, between residues on ACE2 and on the spike protein. Loss of these interactions leads to poorer binding, whereas gain of interactions leads to stronger binding. Many antibodies target specific residues, and mutations at these residues can decrease the effectiveness of those antibodies. 
+
+<br><br>
+In the Delta plus variant, the K417N mutation affects the formation of the SARS-CoV-2 and ACE2 complex. This mutation leads to a weaker hydrogen bond, depicted in the figure to the left. <a href="https://www.nature.com/articles/s41577-021-00542-x">These results</a> support studies showing that the K417N mutant reduces the effectiveness of some antibodies
+
+</p>
+        </div>
+        <div id="block2">
+            <img src="assets/fig3delta.png">
+        </div>
+    
+      <div id="block3text">
+        <p>
+          <b> For more info, check any of the following resources: </b> <br> <br>
+
+             <a href = "https://www.cdc.gov/coronavirus/2019-ncov/index.html"> Centers for Disease Control and Prevention </a> <br> <a href = "https://covid19.who.int/"> World Health Organization</a> <br> <a href = "https://covid19.nih.gov/"> National Institutes of Health</a>
+      <br><br>
+          This Website and Content was created by a team at the SIP Codeathon. The members are Diya Dinesh, Alexa Salsbury, Katilin Abrantes, Anne-Sophie Fratzscher, and Wenyu Zeng.
+
+        <br><BR><BR>
+          </p>
+
+      </div>
+    </div>
+</body>
+
+</html>

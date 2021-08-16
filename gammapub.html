@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>3D Object</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="css/gammapubstyle.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+</head>
+
+<body>
+    <div id="container">
+
+        <!-- Menu -->
+        <div id="navbar">
+            <ul>
+                <li class="active">
+                    <a href="/index.html">Home</a>
+                </li>
+                <li><a  href="/deltapub.html">Delta Variant</a></li>
+                <li><a  href="/gammapub.html">Gamma Variant</a></li>
+            </ul>
+        </div>
+
+        <!--3d object-->
+        <div id="variant">
+            <model-viewer src="covid19orighome.gltf" alt="Covid-19 Original Variant" auto-rotate camera-controls ar ios-src="covid19orighome.gltf">
+            </model-viewer>
+        </div>
+
+        <!--text description-->
+        <div id="content">
+            <h2>Gamma</h2>
+            <p> brief description </p>
+            <a href="#block1text"><button>Learn More</button></a>
+        </div>
+
+    
+
+        <div class="center" id="first">
+        <div id="block1text">
+            <p> brief description </p>
+        </div>
+
+          </div>
+
+        <div class="center">
+        <div id="block2" >
+            <img src="c19.jpg">
+        </div>
+          </div>
+      
+
+        <div class="center">
+        <div id="block3text">
+            <p> brief description </p>
+        </div>
+          </div>
+         
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>COVID-19</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+</head>
+
+<body>
+    <div id="container">
+
+        <!-- Menu -->
+        <div id="navbar">
+            <ul>
+                <li class="active">
+                    <a href="/index.html">Home</a>
+                </li>
+                <li><a  href="/delta.html">Delta Variant</a></li>
+                <li><a  href="/gamma.html">Gamma Variant</a></li>
+            </ul>
+        </div>
+
+        <!--3d object-->
+        <div id="variant">
+            <model-viewer src="covid19orighome.gltf" alt="Covid-19 Original Variant" auto-rotate camera-controls ar ios-src="covid19orighome.gltf">
+            </model-viewer>
+            <p id="fig"><b>What am I looking at?</b> Covid-19 is caused by a virus called SARS-CoV-2. This virus uses a spike protein to enter host cells and infect the body. The spike protein is shown here to the right.</p>
+        </div>
+
+        <!--text description-->
+        <div id="content">
+            <h2>Covid-19</h2>
+            <br>
+            <p> In late 2019 there were unexplained pneumonia-like illnesses breaking out in Wuhan, China which we now know was due to the spread of a virus called <b><u>s</b></u>evere <b><u>a</b></u>cute <b><u>r</b></u>espiratory <b><u>s</b></u>yndrome <b><u>co</b></u>rona<b><u>v</b></u>irus <b><u>2</b></u> (SARS-CoV-2). The spread of this virus around the world led to a global pandemic which still affects us in late 2021. At this stage of the pandemic, SARS-CoV-2 variants have grown concerning to medical professionals and researchers alike; therefore, studying variants of concern is a priority. 3D structural information can help us better understand how mutations can affect health and immunity and is the focus of this website. </p>
+            <a href="#block1text"><button>Learn More</button></a>
+        </div>
+
+         <div id="block1">
+           <img src="assets/fig2home.png">
+        </div>
+
+        <div id="block1text">
+            <p> <b>Why are spike proteins so important?</b> 
+<br>The spike protein is essential to SARS-CoV-2 virus function. Spike proteins are used to bind to human cell receptors, such as the ACE2 receptor, which allows the virus to gain entry into the cell. Viruses infect human cells in order to replicate since they lack the cellular machinery needed to replicate independently. After large amounts of virus replicate in a host’s body, this can cause contraction of Coronavirus disease. So, if a person has antibodies that recognize spike protein and stop entry, they would be protected from the virus. This is why the spike protein is the focus of most COVID-19 vaccines and why mutations, which may block antibody recognition, are concerning to public health.
+<br>
+<br>
+<b>How does the vaccine work?</b> 
+<br>Antibodies can target spike proteins and block the interaction between the spike protein and human cell receptors. This blockage neutralizes the virus and prevents it from infecting human cells. If the virus cannot enter human cells, then it cannot replicate. The mRNA vaccine works by providing spike protein information to your cells that will enable your immune system to recognize spike proteins on the real virus. Therefore, your body is prepared and knows how to fight infection if exposed to the real virus. <a href="https://www.cdc.gov/coronavirus/2019-ncov/downloads/vaccines/COVID-19-mRNA-infographic_G_508.pdf">Learn more about COVID-19 vaccines.</a>
+<br>
+<br>
+<b>Why are mutations in the spike protein important?</b> 
+<br>Mutations can occur in the virus’ genetic code and change the structure of the spike protein. Depending on what mutations occur, these changes could affect antibody binding and influence the efficacy of immune responses. Therefore, it is important to map where these mutations are and investigate how they change spike protein and antibody binding. </p>
+        </div>
+
+
+        <div id="block2text">
+            <p><b> What is a receptor-binding domain (RBD)? </b> <br>To enter cells, SARS-CoV-2 needs to first bind to cells. It does so through its RBD on the spike protein. The RBD specifically recognizes angiotensin-converting enzyme 2 (ACE2) as its receptor, and binding of the RBD to ACE2 leads to structural changes that allow SARS-CoV-2 to enter cells. <a href="https://www.nature.com/articles/s41423-020-0400-4">Early vaccine efforts</a> focused on blocking this binding using either inhibitors or antibody production induced by vaccines. However, the RBD is sometimes hidden (called the closed conformation), which helps the coronavirus evade the immune system. <a href="https://www.pnas.org/content/117/21/11727">Recent research</a> has shown that less than 20% of antibodies target the RBD domain, so vaccines targeting other sites should be investigated.
+<br><br>
+<b>
+What is an N-terminal domain (NTD)? </b><br>The NTD recognizes sugars on the cell surface and helps the coronavirus attach to the cell surface. Since the NTD contributes to early attachment, it can be a target for preventing and treating COVID-19. <a href="https://science.sciencemag.org/content/369/6504/650">Many antibodies actually target the NTD</a> rather than the RBD and work has been done to target antibodies to the NTD.
+<br><br>
+<b>What is the S2 subunit? </b><br>The S2 subunit consists of the rest of the spike protein and is the membrane fusion subunit. After the RBD binds the receptor, the S2 subunit’s structure changes, allowing for the coronavirus to enter the cell. About 40% of antibodies in infected patients target the S2 subunit. That, combined with the fact that the S2 subunit is less likely to have mutations than the NTD and RBD, <a href="https://www.pnas.org/content/117/21/11727">suggests that S2-directed antibodies</a> might be more effective against a wider array of variants, which is crucial to our management of the pandemic. 
+<b><br><br>
+Learn more about these targets in the <a href="https://directorsblog.nih.gov/2021/05/18/human-antibodies-target-many-parts-of-coronavirus-spike-protein/">NIH Director’s Blog</a>. 
+</p>
+        </div>
+        <div id="block2">
+            <img src="assets/fig3home.png">
+        </div>
+    
+      <div id="block3text">
+        <p>
+          <b> For more info, check any of the following resources: </b> <br> <br>
+
+             <a href = "https://www.cdc.gov/coronavirus/2019-ncov/index.html"> Centers for Disease Control and Prevention </a> <br> <a href = "https://covid19.who.int/"> World Health Organization</a> <br> <a href = "https://covid19.nih.gov/"> National Institutes of Health</a>
+      <br><br>
+          This Website and Content was created by a team at the SIP Codeathon. The members are Diya Dinesh, Alexa Salsbury, Katilin Abrantes, Anne-Sophie Fratzscher, and Wenyu Zeng.
+
+        <br><BR><BR>
+          </p>
+
+      </div>
+    </div>
+</body>
+
+</html>
