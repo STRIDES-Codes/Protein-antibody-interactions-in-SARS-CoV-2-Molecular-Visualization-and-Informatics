@@ -1,0 +1,306 @@
+/* The webpage overall styling */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: #d8c3a5;
+    background: #eae7dc;
+}
+/* This is to style the links*/
+a {
+ text-decoration: none;
+}
+/*  Main container that holds everything */
+
+#container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: #eae7dc;
+}
+
+
+/* This styles the menu and its contents */
+li{color: white;}
+
+#navbar {
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    color: white;
+}
+
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 5%;
+    top: 0;
+    background: #17252a;
+    color: white;
+    border-radius: 25px;
+}
+
+
+#navbar ul li {
+    height: 60px;
+    width: 300px;
+    margin: 0 30px;
+    display: grid;
+    place-items: center;
+    background: #17252a;
+    color: white;
+    border-radius: 25px;
+    font-size: 25px;
+}
+
+
+#navbar ul li:hover {/*.active {*/
+    background: #e98704;
+    /*color: #17252a;*/
+    border: none;
+}
+#navbar ul a{/*.active {*/
+    background: #17252a;
+}
+#navbar ul a:hover {/*.active {*/
+    background: #e98704;
+    /*color: #17252a;*/
+    border: none;
+}
+
+/* left block of text styling*/
+
+#content {
+    height: 500px;
+    width: 50%;
+    position: absolute;
+    left: 5%;
+    top: calc(50% - 250px);
+}
+
+
+#content h2 {
+    font-size: 140px;
+    color: #17252a;;
+}
+#content p {
+  width: 75%;
+    font-size: 20px;
+    color: #17252a;
+}
+#content b u{
+    color: #17252a;
+
+}
+#content b {
+    color: #17252a;
+
+}
+#content a{
+    color: #17252a;
+  text-decoration: underline;
+}
+
+
+
+/* learn more button style */
+
+#content button {
+    width: 45%;
+    height: 55px;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-top: 5vh;
+    margin-left: center;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background: #e85a4f;
+    color: white;
+}
+#content button:hover {
+    background: #e98704;
+}
+
+
+
+/*3d object style*/
+
+#variant {
+    height: 600px;
+    width: 38%;
+    position: absolute;
+    top: calc(50% - 250px);
+    right: 5%;
+}
+
+
+
+#variant img {
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+}
+#variant p {
+    font-size: 17px;
+    color: #eb8074;
+    position: absolute;
+    top: calc(50% - 250px + 500px);
+}
+#variant b{
+    color: #17252a;
+
+}
+
+
+#block1 {
+    height: 600px;
+    width: 50%;
+    position: absolute;
+    top: calc(50% - 250px + 700px);
+    left: 5%;
+}
+
+
+
+#block1 img {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+}
+
+#block1 p{
+    width: 75%;
+    font-size: 17px;
+    color: #eb8074;
+    position: absolute;
+    top: calc(50% - 250px + 500px);
+
+}
+#block1 b{
+    color: #17252a;
+
+}
+#block1text {
+    height: 500px;
+    width: 38%;
+    position: absolute;
+    right: 5%;
+    top: calc(50% - 250px + 700px);
+
+}
+
+#block1text p {
+
+    font-size: 17px;
+    color: #17252a;;
+}
+
+#block1text b{
+  color: #17252a
+}
+
+#block1text a{
+  text-decoration: underline;
+  color: #17252a
+}
+
+#block2 {
+    height: 600px;
+    width: 50%;
+    position: absolute;
+    top: calc(50% - 250px + 700px + 700px);
+    right: 5%;
+}
+
+
+
+#block2 img {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+}
+
+#block2 p{
+    font-size: 17px;
+    color: #eb8074;
+    position: absolute;
+    top: calc(50% - 250px + 500px);
+
+}
+#block2 b{
+    color: #17252a;
+
+}
+
+#block2text {
+    height: 500px;
+    width: 38%;
+    position: absolute;
+    left: 5%;
+    top: calc(50% - 250px + 700px + 700px);
+
+}
+
+#block2text p {
+
+    font-size: 17px;
+    color: #17252a;;
+}
+
+#block2text b{
+  color: #17252a
+}
+
+#block2text a{
+  text-decoration: underline;
+  color: #17252a
+}
+
+
+
+#block3text {
+    height: 300px;
+    /*width: 700px;*/
+    position: absolute;
+    /*right: 12%;*/
+    top: calc(50% - 250px + 700px + 700px + 700px);
+    left: 5%;
+
+}
+
+#block3text p {
+    font-size: 20px;
+    color: #17252a;;
+}
+#bp{
+  list-style-type: circle;
+    font-size: 20px;
+    color: #17252a;;
+}
+
+#block3text b {
+    color: #17252a;;
+}
+
+#block3text a{
+  text-decoration: underline;
+  color: #17252a
+}
+
