@@ -22,5 +22,6 @@ After making the mutations, a comparison between the original and mutated protei
 [Website Construction](https://www.w3schools.com/html/)
 To package the information in an accessible and interactive manner, we created a website using HTML. The website includes the use of 3D images for interaction, alternating structure of text and images for ease of navigation, highlighted headings to draw reader attention, and (i.e. learn more and back to the top) buttons for ease of navigation.
 
-## Possible Improvements
-[1] Finding a less performance exhausting way to display the 3D model
+## Ongoing Improvements
+1) Finding a less performance exhausting way to display the 3D model
+2) Make website layout suitable for all screens, browsers, and computers. 
